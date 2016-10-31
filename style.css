@@ -1,0 +1,63 @@
+/* I've left this unminified so that you can see it. */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700');
+
+html {
+	font-size: calc(10px + 1vw);
+}
+
+@media(max-width: 800px){
+	html{font-size: 16px;}
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #999;
+	background: #1C1D21;
+	padding: 4rem;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+}
+@media(max-width: 800px){
+	body {
+		padding: 1rem;
+	}
+}
+
+em {
+	font-style: normal;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+a {
+	margin-top: 1rem;
+	display: inline-block;
+	color: #1C1D21;
+	line-height: 56px;
+	padding: 0 1rem;
+	font-weight: 400;
+	text-decoration: none;
+}
+@media(max-width: 800px){
+	a {
+		display: block;
+	}
+}
+
+.download-button {
+	background: #E5CD52;
+}
+@media(max-width: 800px){
+	.download-button {margin-top: 3rem;}
+}
+
+.contact-button {
+	background: #78BD65;
+}
