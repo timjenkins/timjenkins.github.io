@@ -204,6 +204,7 @@ h4 {
   justify-content: space-between;
   width: 100%;
   font-weight: 800;
+  line-height: 1.2;
 }
 
 .job--subheading--title {
@@ -217,4 +218,33 @@ h4 {
 
 .project {
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+  
+  .meta {
+    border-top: 0;
+    flex-wrap: wrap;
+  }
+  .meta .meta--location {
+    flex-shrink: 0;
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+.job .job--subheading {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.job .job--subheading p {
+  display: block;
+  margin-bottom: 0;
+}
+ 
+
 }
